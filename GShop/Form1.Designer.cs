@@ -41,7 +41,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.firstCustomControl1 = new GShop.FirstCustomControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -194,19 +193,11 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.firstCustomControl1);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(184, 90);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(716, 407);
             this.panel5.TabIndex = 4;
-            // 
-            // firstCustomControl1
-            // 
-            this.firstCustomControl1.Location = new System.Drawing.Point(0, 0);
-            this.firstCustomControl1.Name = "firstCustomControl1";
-            this.firstCustomControl1.Size = new System.Drawing.Size(716, 407);
-            this.firstCustomControl1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -247,7 +238,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel5;
-        private FirstCustomControl firstCustomControl1;
     }
 }
 

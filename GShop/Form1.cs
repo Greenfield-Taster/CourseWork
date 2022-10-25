@@ -16,7 +16,6 @@ namespace GShop
         {
             InitializeComponent();
             SlidePanel.Height = buttonHome.Height;
-            firstCustomControl1.BringToFront();
             SlidePanel.Top = buttonHome.Top;
         }
 
@@ -29,7 +28,6 @@ namespace GShop
         {
             SlidePanel.Height = buttonHome.Height;
             SlidePanel.Top = buttonHome.Top;
-            firstCustomControl1.BringToFront();
         }
 
         private void buttonCategory_Click(object sender, EventArgs e)
